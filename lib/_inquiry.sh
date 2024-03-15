@@ -11,7 +11,7 @@ get_mysql_root_password() {
 get_link_git() {
   
   print_banner
-  printf "${WHITE} 💻 Insira o link do GITHUB do seu Logycachat que deseja instalar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Insira o link do GITHUB do seu whaticket que deseja instalar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " link_git
 }
@@ -201,14 +201,14 @@ software_dominio() {
 inquiry_options() {
   
   print_banner
-  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador Logycachat - Atendimento sem limites, selecione abaixo a proxima ação!${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador whaticket - Atendimento sem limites, selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [0] Instalar Logycachat\n"
-  printf "   [1] Atualizar Logycachat\n"
-  printf "   [2] Deletar Logycachat\n"
-  printf "   [3] Bloquear Logycachat\n"
-  printf "   [4] Desbloquear Logycachat\n"
-  printf "   [5] Alter. dominio Logycachat\n"
+  printf "   [0] Instalar whaticket\n"
+  printf "   [1] Atualizar whaticket\n"
+  printf "   [2] Deletar whaticket\n"
+  printf "   [3] Bloquear whaticket\n"
+  printf "   [4] Desbloquear whaticket\n"
+  printf "   [5] Alter. dominio whaticket\n"
   printf "\n"
   read -p "> " option
 
